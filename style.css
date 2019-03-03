@@ -1,0 +1,137 @@
+body {
+  background-color: gainsboro;
+
+}
+h2 {
+    text-align: center;
+}
+input {
+  width: 500px;
+  margin-left: 25%;
+  margin-right: 65%;
+  border: solid 1px #CCC; 
+  font-size: 15px;
+  color: #999;
+  padding-left: 5px;
+  vertical-align: bottom;
+  float: left;
+}
+/* #searchButton {
+  float: left;
+  
+  border: solid 1px #CCC;
+  height: 25px;
+  width: 115px;
+  color: white;
+} */
+.card-body{
+  
+
+  background-color: lightblue;
+    
+    border: 1px solid gray;
+    display: inline-block;
+    
+    max-width: 450px;
+    margin: 5px;
+    padding: 0;
+    border-radius: 3px;
+}
+.card{
+  /* background-color: lightblue; */
+  align-items: center;
+  border: 1px solid gray;
+  display: inline-block;
+}
+#form2 {
+   margin-left: 10%;
+  margin-top: 25%;
+}
+.books{
+    background-color: lightblue;
+    align-items: center;
+    float: left;
+    display: grid;
+    grid-gap: 8px;
+    border: 2px solid brown;
+    border-radius: 4px;
+    
+    margin: 2px;
+}
+#resultField {
+    padding: 2%;
+    margin: 5%;
+    align-self: auto;
+}
+h5, p {
+    /* float: left; */
+    text-align: left;
+}
+img {
+  min-width: 150px;
+  min-height: 250px;
+  margin-right: 10px;
+  float: left;
+}
+/* .btn-primary {
+    
+    float: left;
+    margin-right: 45%;
+} */
+img { transition: all .2s ease-in-out; }
+img:hover { transform: scale(1.1); }
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+}
+
+
+/*///////////////////////////////////////////////////*/
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	/* margin: 1% 0 1% 1.6%; */
+}
+/* .col:first-child { margin-left: 0; } */
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+.errorP {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+.loadP  {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size:24px;
+}
